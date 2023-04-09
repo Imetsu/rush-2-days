@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <!---<title> Responsive Login Form | CodingLab </title>--->
+    <link rel="stylesheet" href="register.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <nav class="nav">
+      <p class="welcome">Log in to get started</p>
+      <img src="imagelibrary1/Steam.webp" alt="Logo" class="logo" />
+      <form class="login">
+        <input
+          type="text"
+          placeholder="user"
+          class="login__input login__input--user"
+        />
+        <!-- In practice, use type="password" -->
+        <input
+          type="text"
+          placeholder="PIN"
+          maxlength="4"
+          class="login__input login__input--pin"
+        />
+        <button class="login__btn">&rarr;</button>
+      </form>
+    </nav>
+    <div class="container">
+      <form action="#">
+        <div class="title">Login</div>
+        <div class="input-box underline">
+          <input
+            type="text"
+            placeholder="Enter Your Email"
+            required
+            class="dangky"
+          />
+          <div class="underline"></div>
+        </div>
+        <div class="input-box">
+          <input
+            type="password"
+            class="pass"
+            placeholder="Enter Your Password"
+          />
+          <div class="underline"></div>
+        </div>
+        <div class="input-box button submit">
+          <input type="submit" name="" value="Continue" />
+        </div>
+      </form>
+      <div class="option">or Connect With Social Media</div>
+      <div class="twitter">
+        <a href="#"><i class="fab fa-twitter"></i>Sign in With Twitter</a>
+      </div>
+      <div class="facebook">
+        <a href="#"><i class="fab fa-facebook-f"></i>Sign in With Facebook</a>
+      </div>
+    </div>
+    <script src="register.js"></script>
+  </body>
+</html>
